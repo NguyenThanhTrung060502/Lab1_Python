@@ -19,7 +19,7 @@ while line != "":
 for i in range(len(array)):
 	if i not in new_array:
 		count += 1
-print("Количество повторяющихся строк : " + str(count))
+print("Количество неповторяющихся строк : " + str(count))
 
 
 length = len(amount)
